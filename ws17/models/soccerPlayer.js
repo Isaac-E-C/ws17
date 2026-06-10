@@ -13,7 +13,7 @@ const soccerPlayerSchema = new mongoose.Schema(
     contributions: { type: Number, default: 0 },
   },
   {
-    collection: "soccerPlayers",
+    collection: "soccerPlayer",
     timestamps: true,
   }
 );
